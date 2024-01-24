@@ -122,13 +122,15 @@
   border: 1px solid #4caf50;
   border-radius: 4px;
   cursor: pointer;
-  width: calc(
-    100% + 2px
-  ); /* Додано +2px, щоб компенсувати відступи від обрамлення */
-  margin-top: 10px; /* Додано відступ від верхнього елементу */
+  width: calc(100% + 2px);
+  margin-top: 10px;
 }
 
 .form button:hover {
   background-color: #4caf50;
   color: #fff;
+}
+
+.iziToast {
+  left: -20%;
 }

@@ -1,6 +1,10 @@
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
 
+iziToast.settings({
+  position: 'topCenter',
+});
+
 document.querySelector(".form").addEventListener("submit", (event) => {
   event.preventDefault();
 
