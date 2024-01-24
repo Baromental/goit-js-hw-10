@@ -1,9 +1,3 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
@@ -22,4 +16,30 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 3rem;
+  color: #000;
+  margin-top: 20px;
+}
+
+.timer .field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.timer .field .value {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.timer .field .label {
+  font-size: 1.5rem;
 }
