@@ -39,7 +39,7 @@ flatpickr("#datetime-picker", options);
 
 dataStart.addEventListener('click', () => {
     if (!timeDeadline) {
-        return; // Додано перевірку на наявність обраної дати
+        return;
     }
 
     dataStart.disabled = true;
